@@ -1,5 +1,4 @@
-# Machine_Learning_A2
-Sentence pair classification for parliamentary turn-taking
+# Sentence pair classification for parliamentary turn-taking
 
 Contributors:
 
