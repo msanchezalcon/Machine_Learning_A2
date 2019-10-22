@@ -13,17 +13,19 @@ We expect you to deliver the following in your submission as a GitHub repo:
 ## Preprocessing scripts (6 points): 
 One or more command-line scripts that will process the XML files and generate training and test data files that your training and evaluation scripts will load. It should be possible to vary the train/test split via command-line options.
 
-Remove Tags: 
+Our preliminary steps:
 
-Expand Contractions: 
+a. Remove Tags: 
 
-Text Lemmatization: 
+b. Expand Contractions: 
 
-Remove Stop Words: 
+c. Text Lemmatization: 
 
-Tokenization: 
+d. Remove Stop Words: 
 
-Create Bigrams:
+e. Tokenization: 
+
+f. Create Bigrams:
 
 ## Training and evaluation scripts (9 points): 
 Implement one method for training a turn-taking classification model that involves a PyTorch-based neural network, such as the ones suggested above. There should a training script and a separate evaluation script.  You can create your own module files to contain code common to both (optional).  The training script should save a model that will be loaded by the evaluation script (and your final model should be saved and submitted, if it is too large to upload to GitHub contact us and we'll find another way).
