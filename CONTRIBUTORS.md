@@ -20,11 +20,9 @@ b. Expand Contractions:
 
 c. Text Lemmatization: 
 
-d. Remove Stop Words: 
+d. Tokenization: 
 
-e. Tokenization: 
-
-f. Create Bigrams:
+e. Create Bigrams:
 
 ## Training and evaluation scripts (9 points): 
 Implement one method for training a turn-taking classification model that involves a PyTorch-based neural network, such as the ones suggested above. There should a training script and a separate evaluation script.  You can create your own module files to contain code common to both (optional).  The training script should save a model that will be loaded by the evaluation script (and your final model should be saved and submitted, if it is too large to upload to GitHub contact us and we'll find another way).
