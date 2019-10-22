@@ -14,15 +14,26 @@ One or more command-line scripts that will process the XML files and generate tr
 
 Our preliminary steps:
 
-a. Remove Tags: 
+Load data
 
-b. Expand Contractions: 
+a. Remove Tags
 
-c. Text Lemmatization: 
+b. Expand Contractions
 
-d. Tokenization: 
+c. Remove special characters
 
-e. Create Bigrams:
+d. Mark sentence boundaries (speech boundaries)
+
+e. Save into a csv
+
+
+Process data
+
+c. Text Lemmatization
+
+d. Tokenization
+
+e. Create Bigrams
 
 ## Training and evaluation scripts (9 points): 
 Implement one method for training a turn-taking classification model that involves a PyTorch-based neural network, such as the ones suggested above. There should a training script and a separate evaluation script.  You can create your own module files to contain code common to both (optional).  The training script should save a model that will be loaded by the evaluation script (and your final model should be saved and submitted, if it is too large to upload to GitHub contact us and we'll find another way).
