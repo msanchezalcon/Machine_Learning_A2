@@ -14,10 +14,15 @@ We expect you to deliver the following in your submission as a GitHub repo:
 One or more command-line scripts that will process the XML files and generate training and test data files that your training and evaluation scripts will load. It should be possible to vary the train/test split via command-line options.
 
 Remove Tags: 
+
 Expand Contractions: 
+
 Text Lemmatization: 
+
 Remove Stop Words: 
+
 Tokenization: 
+
 Create Bigrams:
 
 ## Training and evaluation scripts (9 points): 
